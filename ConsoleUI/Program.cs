@@ -10,9 +10,9 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
-            /*
-             * Todo follow all comments!! 
-             */
+            public class Car : Vehicle
+            public class Motorcycle : Vehicle
+
 
             #region Vehicles
 
@@ -46,7 +46,7 @@ namespace ConsoleUI
 
             // Call each of the drive methods for one car and one motorcycle
 
-            #endregion            
+        #endregion
             Console.ReadLine();
         }
     }
